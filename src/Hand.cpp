@@ -77,7 +77,7 @@ std::string Hand<N>::getFiveCardHandRanking() const {
     } else if (isOnePair()) {
         return "One Pair";
     } else {
-        return getHighCard();
+        return "High Card";
     }
 }
 
@@ -162,3 +162,6 @@ template <std::size_t N>
 bool Hand<N>::getHighCard() const {
     return true;
 }
+
+template class Hand<2>;
+template class Hand<5>;

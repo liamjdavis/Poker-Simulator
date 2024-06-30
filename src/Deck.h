@@ -22,4 +22,4 @@ class Deck {
         void initializeDeck();
 };
 
-#endif DECK_H
+#endif
